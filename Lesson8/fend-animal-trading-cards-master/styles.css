@@ -1,0 +1,43 @@
+/* add your CSS here */
+#card {
+    /* dimensions of the card */
+    width: 40%;
+    padding: 5px;
+    /* end dimensions */
+
+    /* box shadow */
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.17);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.17);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.17);
+    /* end box shadow */
+
+    /* border */
+    border: solid black 0.5px;
+    /* end border */
+}
+
+#card h3 {
+    font-size: 1.5em;
+}
+
+.card-image {
+    width: 100%;
+}
+
+#content {
+    padding: 3px;
+    border: solid black 0.5px;
+    margin: 0 auto;
+}
+
+.fact {
+    font-style: italic;
+}
+
+ul {
+    list-style: none;
+}
+
+li span {
+    font-weight: bold; 
+}
